@@ -16,6 +16,20 @@ summary: Learn what's new with Azure NetApp Files support in BlueXP.
 Learn what's new with Azure NetApp Files in BlueXP.
 
 //tag::whats-new[]
+== 12 June 2024
+
+=== New permission required
+
+The following permission is now required to manage Azure NetApp Files volumes from BlueXP:
+
+Microsoft.Network/virtualNetworks/subnets/read
+
+This permission is required to read a virtual network subnet.
+
+If you're currently managing Azure NetApp Files from BlueXP, you need to add this permission to the custom role that's associated with the Microsoft Entra application that you previously created.
+
+https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.html[Learn how to set up a Microsoft Entra application and view the custom role permissions].
+
 == 22 April 2024
 
 === Volume templates no longer supported
@@ -31,6 +45,8 @@ A new Application Templates service enables you to set up a volume template for 
 * https://docs.netapp.com/us-en/bluexp-remediation/concept-resource-templates.html[Learn about Application Templates and how you can use them in your environment^]
 * https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-create-volumes.html[Learn how to create an Azure NetApp Files volume from a template]
 
+//end::whats-new[]
+
 == 8 March 2021
 
 === Dynamically change service levels
@@ -38,8 +54,6 @@ A new Application Templates service enables you to set up a volume template for 
 You can now dynamically change the service level for a volume to meet workload needs and optimize your costs. The volume is moved to the other capacity pool with no impact to the volume.
 
 https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-manage-volumes.html#change-the-volumes-service-level[Learn how to change a volume's service level].
-
-//end::whats-new[]
 
 == 3 August 2020
 

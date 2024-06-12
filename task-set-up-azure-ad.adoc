@@ -95,6 +95,7 @@ image:screenshot_azure_access_control.gif[A screenshot that shows the steps to a
     "Microsoft.Resources/subscriptions/resourcegroups/resources/read",
     "Microsoft.Resources/subscriptions/resourceGroups/write",
     "Microsoft.Network/virtualNetworks/read",
+    "Microsoft.Network/virtualNetworks/subnets/read",
     "Microsoft.Insights/Metrics/Read"
     ],
 
