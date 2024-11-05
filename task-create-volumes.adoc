@@ -41,10 +41,10 @@ image:screenshot_anf_create_account.png[A screenshot of the fields required to c
 +
 If you create a new capacity pool, you need to specify a size and select a https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-service-levels[service level^].
 +
-The minimum size for the capacity pool is 4 TB. You can specify a size in multiples of 4 TB.
+The minimum size for the capacity pool is 1 TB.
 
-* *Details & Tags*: Enter a volume name and size, the VNet and subnet where the volume should reside, and optionally specify tags for the volume.
-
+* *Details & Tags*: Enter a volume name and size, the VNet and subnet where the volume should reside, and optionally specify tags for the volume. You can also choose to the networking type. Choose Standard to support VNet features or Basic have reduced IP limits (<1000) and no additional VNet features for the volumes.
++
 * *Protocol*: Choose the NFS or SMB protocol and enter the required information.
 +
 Here's an example of details for NFS.
