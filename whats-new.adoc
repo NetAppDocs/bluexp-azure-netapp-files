@@ -15,17 +15,16 @@ summary: Learn what's new with Azure NetApp Files support in BlueXP.
 [.lead]
 Learn what's new with Azure NetApp Files in BlueXP.
 
+// tag::whats-new[]
 == 12 June 2024
-
 include::_whatsnew/2024-06-12.adoc[]
 
 == 22 April 2024
-
 include::_whatsnew/2024-04-22.adoc[]
 
 == 11 April 2021
-
 include::_whatsnew/2021-04-11.adoc[]
+// end::whats-new[]
 
 == 8 March 2021
 
