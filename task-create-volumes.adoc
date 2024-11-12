@@ -43,7 +43,8 @@ If you create a new capacity pool, you need to specify a size and select a https
 +
 The minimum size for the capacity pool is 1 TB.
 
-* *Details & Tags*: Enter a volume name and size, the VNet and subnet where the volume should reside, and optionally specify tags for the volume. You can also choose to the networking type. Choose Standard to support VNet features or Basic have reduced IP limits (<1000) and no additional VNet features for the volume.
+* *Details & Tags*: Enter a volume name and size, the VNet and subnet where the volume should reside, and optionally specify tags for the volume. You can also choose to the networking type. 
+** You also need to select a Networking type. Choose Standard to support VNet features or Basic have reduced IP limits (<1000) and no additional VNet features for the volume.
 +
 * *Protocol*: Choose the NFS or SMB protocol and enter the required information.
 +
@@ -59,9 +60,6 @@ image:screenshot_anf_smb.gif[A screenshot of the fields required to set up an SM
 
 . Click *Add Volume*.
 
-.Result
-
-The new volume is added to the working environment.
 
 Continue with <<Mount volumes,mounting the cloud volume>>.
 
