@@ -8,9 +8,9 @@ indexpage:
     - title: Get started
       links:
       - title: Learn about Azure NetApp Files
-          url: concept-azure-netapp-files.html
+        url: concept-azure-netapp-files.html
       - title: Quick start
-          url: task-quick-start.html
+        url: task-quick-start.html
     - title: Use Azure NetApp Files
       links:
         - title: Create volumes
@@ -19,10 +19,10 @@ indexpage:
           url: task-manage-volumes.html
     - title: Blogs & community
       links:
-        - title: NetApp Community
-          url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-        - title: BlueXP blog
-          url: https://cloud.netapp.com/blog
-        - title: Cloud webinars
-          url: https://cloud.netapp.com/events
+       - title: NetApp Community
+         url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+       - title: BlueXP blog
+         url: https://cloud.netapp.com/blog
+       - title: Cloud webinars
+         url: https://cloud.netapp.com/events
           # End snippet
