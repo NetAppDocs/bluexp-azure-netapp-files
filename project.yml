@@ -15,16 +15,16 @@ sidebar:
      entries:
       - title: What's new
         url: /whats-new.html
-      - title: Get started
-        entries:
-        - title: Learn about Azure NetApp Files
-          url: /concept-azure-netapp-files.html
-        - title: Getting started workflow
-          url: /task-quick-start.html
-        - title: Set up a Microsoft Entra application
-          url: /task-set-up-azure-ad.html
-        - title: Create a working environment
-          url: /task-create-working-env.html
+   - title: Get started
+     entries:
+     - title: Learn about Azure NetApp Files
+       url: /concept-azure-netapp-files.html
+     - title: Getting started workflow
+       url: /task-quick-start.html
+     - title: Set up a Microsoft Entra application
+       url: /task-set-up-azure-ad.html
+     - title: Create a working environment
+       url: /task-create-working-env.html
    - title: Use Azure NetApp Files
      entries:
         - title: Create and mount volumes
