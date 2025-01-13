@@ -15,16 +15,26 @@ summary: Learn what's new with Azure NetApp Files support in BlueXP.
 [.lead]
 Learn what's new with Azure NetApp Files in BlueXP.
 
-// tag::whats-new[]
+//tag::whats-new[]
+
+== 13 January 2024
+
+=== Network features now supported in BlueXP
+When configuring a volume in Azure NetApp files from BlueXP, you can now indicate network features. This aligns with functionality available in native Azure NetApp Files. 
+
 == 12 June 2024
 include::_whatsnew/2024-06-12.adoc[]
 
 == 22 April 2024
 include::_whatsnew/2024-04-22.adoc[]
 
+//end::whats-new[]
+
 == 11 April 2021
-include::_whatsnew/2021-04-11.adoc[]
-// end::whats-new[]
+
+=== Support for volume templates
+
+A new Application Templates service enables you to set up a volume template for Azure NetApp Files. The template should make your job easier because certain volume parameters will already be defined in the template, such as capacity pool, size, protocol, VNet and subnet where the volume should reside, and more. When a parameter is already predefined, you can just skip to the next volume parameter.
 
 == 8 March 2021
 
