@@ -14,7 +14,7 @@ summary: BlueXP needs permissions to set up and manage Azure NetApp Files. You c
 
 [.lead]
 BlueXP needs permissions to set up and manage Azure NetApp Files. You can grant the required permissions to an Azure account by creating and setting up a Microsoft Entra application and by obtaining the Azure credentials that BlueXP needs.
-
+[[create-AD-application]]
 == Step 1: Create the application
 
 Create a Microsoft Entra application and service principal that BlueXP can use for role-based access control.
@@ -150,6 +150,6 @@ image:screenshot_settings_icon.gif[A screenshot that shows the Settings icon in 
 * Application (client) ID
 * Directory (tenant) ID
 +
-You should have captured this information when you <<Create the AD application,created the AD application>>.
+You should have captured this information when you <<create-AD-application,created the AD application>>.
 
 .. *Review*: Confirm the details about the new credentials and click *Add*.
