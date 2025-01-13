@@ -23,35 +23,18 @@ Learn what's new with Azure NetApp Files in BlueXP.
 When configuring a volume in Azure NetApp Files from BlueXP, you can now indicate network features. This aligns with functionality available in native Azure NetApp Files. 
 
 == 12 June 2024
-
-=== New permission required
-
-The following permission is now required to manage Azure NetApp Files volumes from BlueXP:
-
-Microsoft.Network/virtualNetworks/subnets/read
-
-This permission is required to read a virtual network subnet.
-
-If you're currently managing Azure NetApp Files from BlueXP, you need to add this permission to the custom role that's associated with the Microsoft Entra application that you previously created.
-
-https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.html[Learn how to set up a Microsoft Entra application and view the custom role permissions].
+include::_whatsnew/2024-06-12.adoc[]
 
 == 22 April 2024
-
-=== Volume templates no longer supported
-
-You can no longer create a volume from a template. This action was associated with the BlueXP remediation service, which is no longer available.
+include::_whatsnew/2024-04-22.adoc[]
 
 //end::whats-new[]
-
 
 == 11 April 2021
 
 === Support for volume templates
 
 A new Application Templates service enables you to set up a volume template for Azure NetApp Files. The template should make your job easier because certain volume parameters will already be defined in the template, such as capacity pool, size, protocol, VNet and subnet where the volume should reside, and more. When a parameter is already predefined, you can just skip to the next volume parameter.
-
-
 
 == 8 March 2021
 
