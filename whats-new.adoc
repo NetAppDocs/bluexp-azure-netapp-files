@@ -22,36 +22,13 @@ Learn what's new with Azure NetApp Files in BlueXP.
 === Network features now supported in BlueXP
 When configuring a volume in Azure NetApp files from BlueXP, you can now indicate network features. This aligns with functionality available in native Azure NetApp Files. 
 
-== 12 June 2024
-
-=== New permission required
-
-The following permission is now required to manage Azure NetApp Files volumes from BlueXP:
-
-Microsoft.Network/virtualNetworks/subnets/read
-
-This permission is required to read a virtual network subnet.
-
-If you're currently managing Azure NetApp Files from BlueXP, you need to add this permission to the custom role that's associated with the Microsoft Entra application that you previously created.
-
-https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.html[Learn how to set up a Microsoft Entra application and view the custom role permissions].
-
-== 22 April 2024
-
-=== Volume templates no longer supported
-
-You can no longer create a volume from a template. This action was associated with the BlueXP remediation service, which is no longer available.
-
-//end::whats-new[]
-
-
 == 11 April 2021
 
 === Support for volume templates
 
 A new Application Templates service enables you to set up a volume template for Azure NetApp Files. The template should make your job easier because certain volume parameters will already be defined in the template, such as capacity pool, size, protocol, VNet and subnet where the volume should reside, and more. When a parameter is already predefined, you can just skip to the next volume parameter.
 
-
+include::_whatsnew/2021-04-11.adoc[]
 
 == 8 March 2021
 
@@ -60,6 +37,8 @@ A new Application Templates service enables you to set up a volume template for 
 You can now dynamically change the service level for a volume to meet workload needs and optimize your costs. The volume is moved to the other capacity pool with no impact to the volume.
 
 https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-manage-volumes.html#change-the-volumes-service-level[Learn how to change a volume's service level].
+
+// end::whats-new[]
 
 == 3 August 2020
 
