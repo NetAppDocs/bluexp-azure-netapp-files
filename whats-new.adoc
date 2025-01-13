@@ -20,7 +20,16 @@ Learn what's new with Azure NetApp Files in BlueXP.
 == 13 January 2024
 
 === Network features now supported in BlueXP
-When configuring a volume in Azure NetApp files from BlueXP, you can now indicate network features. This aligns with functionality available in native Azure NetApp Files. 
+When configuring a volume in Azure NetApp Files from BlueXP, you can now indicate network features. This aligns with functionality available in native Azure NetApp Files. 
+
+
+== 12 June 2024
+include::_whatsnew/2024-06-12.adoc[]
+
+== 22 April 2024
+include::_whatsnew/2024-04-22.adoc[]
+
+//end::whats-new[]
 
 == 11 April 2021
 
