@@ -22,6 +22,7 @@ Learn what's new with Azure NetApp Files in BlueXP.
 === Network features now supported in BlueXP
 When configuring a volume in Azure NetApp Files from BlueXP, you can now indicate network features. This aligns with functionality available in native Azure NetApp Files. 
 
+
 == 12 June 2024
 include::_whatsnew/2024-06-12.adoc[]
 
@@ -36,6 +37,8 @@ include::_whatsnew/2024-04-22.adoc[]
 
 A new Application Templates service enables you to set up a volume template for Azure NetApp Files. The template should make your job easier because certain volume parameters will already be defined in the template, such as capacity pool, size, protocol, VNet and subnet where the volume should reside, and more. When a parameter is already predefined, you can just skip to the next volume parameter.
 
+include::_whatsnew/2021-04-11.adoc[]
+
 == 8 March 2021
 
 === Dynamically change service levels
@@ -43,6 +46,8 @@ A new Application Templates service enables you to set up a volume template for 
 You can now dynamically change the service level for a volume to meet workload needs and optimize your costs. The volume is moved to the other capacity pool with no impact to the volume.
 
 https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-manage-volumes.html#change-the-volumes-service-level[Learn how to change a volume's service level].
+
+// end::whats-new[]
 
 == 3 August 2020
 
